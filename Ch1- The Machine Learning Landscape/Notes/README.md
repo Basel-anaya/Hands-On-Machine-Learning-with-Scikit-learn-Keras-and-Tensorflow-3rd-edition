@@ -53,19 +53,25 @@ ML is the science (and art) of programming computers so they can learn from data
 
 +   Getting insights about complex problems and large amounts of data.
 
+---
 
+### - The traditional approach:
+![The traditioanl approach](https://user-images.githubusercontent.com/81964452/185117476-c821d293-984c-40cc-a04c-5f23e3559b4c.png)
 
-![The traditioanl approach](./figs/chap01-figs/traditional-program.png)
-<p align="center">The traditional approach</p>
+---
 
-![The ML approach](./figs/chap01-figs/ml-program.png)
-<p align="center">The ML approach</p>
+### - The ML approach:
+![The ML approach](https://user-images.githubusercontent.com/81964452/185118571-783bfed8-e9c8-4da1-b43c-5101fe6a9ee4.png)
 
-![ml-automatically-adapting-to-change](./figs/chap01-figs/ml-automatically-adapting-to-change.png)
-<p align="center">Automatically adapting to change</p>
+---
 
-![ml-can-help-humans-learn](./figs/chap01-figs/ml-can-help-humans-learn.png)
-<p align="center">ML can help humans learn</p>
+### - ML automatically is adopting to change:
+![ml-automatically-adapting-to-change](https://user-images.githubusercontent.com/81964452/185119862-9602cdf9-d2c2-470d-b98b-ee977f817910.png)
+
+---
+
+### - ML can help humans learn:
+![ml-can-help-humans-learn](https://user-images.githubusercontent.com/81964452/185120186-cf491591-17e3-45c3-aacf-58db016ba90e.png)
 
 [Back to top :arrow_up:](#main-contents)
 
@@ -83,8 +89,8 @@ Machine Learning systems can be classified according to the amount and type of s
 
 The training set you feed to the algorithm includes the desired solutions, called *labels*.
 
-![supervised-learning-example](./figs/chap01-figs/supervised-learning-example.png)
-<p align="center">Supervised Learning (classification)</p>
+#### - Supervised Learning (classification):
+![supervised-learning-example](https://user-images.githubusercontent.com/81964452/185122765-3815163f-93b2-49fb-91d1-355fbcc9c44c.png)
 
 - classification
 - regression
@@ -94,9 +100,9 @@ The training set you feed to the algorithm includes the desired solutions, calle
 ### 3.1.2 Unsupervised Learning
 
 The training set is unlabeled.
-    
-![dataset-for-unsupervised-learning](./figs/chap01-figs/dataset-for-unsupervised-learning.png)
-<p align="center">Dataset for Unsupervised Learning</p>
+
+#### - Dataset for Unsupervised Learning
+![dataset-for-unsupervised-learning](https://user-images.githubusercontent.com/81964452/185124244-2a578c06-e118-4982-8b6a-d4ac1b4ad9e8.png)
 
 -   Clustering: detect groups
     -   K-Means
@@ -124,8 +130,8 @@ The training set is unlabeled.
 
 There has plenty of unlabeled instances, and few labeled instances. Some algorithms can deal with data that’s partially labeled. This is called *semisupervised learning*.
 
-![semi-supervised-learning](./figs/chap01-figs/semi-supervised-learning.png)
-<p align="center">Semisupervised learning with two classes (triangles and squares): the unlabeled examples (circles) help classify a new instance (the cross) into the triangle class rather than the square class, even though it is closer to the labeled squares</p>
+![semi-supervised-learning](https://user-images.githubusercontent.com/81964452/185125258-c8646b2b-1ac0-4bdd-b307-026cf7bbfca6.png)
+- Semisupervised learning with two classes (triangles and squares): the unlabeled examples (circles) help classify a new instance (the cross) into the triangle class rather than the square class, even though it is closer to the labeled squares
 
 **Most semisupervised learning algorithms are combinations of unsupervised and supervised algorithms**. For example, *deep belief networks* (DBNs) are based on unsupervised components called *restricted Boltzmann machines* (RBMs) stacked on top of one another. RBMs are trained sequentially in an unsupervised manner, and then the whole system is fine-tuned using supervised learning techniques.
 
@@ -135,8 +141,8 @@ The learning system, called an *agent* in this context, can observe the environm
 
 A policy defines what action the agent should choose when it is in a given situation.
 
-![reinforcement-learning](./figs/chap01-figs/reinforcement-learning.png)
-<p align="center">Reinforcement Learning</p>
+#### - Reinforcement Learning
+![reinforcement-learning](https://user-images.githubusercontent.com/81964452/185126452-d0771382-67b0-4315-8782-0371f551fa8d.png)
 
 [Back to top :arrow_up:](#main-contents)
 
@@ -162,7 +168,7 @@ A better option in all these cases is to use algorithms that are capable of lear
 
 In *online learning*, you train the system **incrementally by feeding it data instances sequentially, either individually or in small groups called *mini-batches***. Each learning step is fast and cheap, so the system can learn about new data on the fly, as it arrives.
 
-![online learning](./figs/chap01-figs/online-learning.png)
+![online learning](https://user-images.githubusercontent.com/81964452/185127029-f3464f9b-5e1e-45da-a7ee-957dd84f5206.png)
 <p align="center">In online learning, a model is trained and launched into production, and then it keeps learning as new data comes in</p>
 
 +   Online learning is great for systems that receive data as a continuous flow (e.g., stock prices) and need to adapt to change rapidly or autonomously (独立地). 
@@ -170,7 +176,7 @@ In *online learning*, you train the system **incrementally by feeding it data in
 +   Online learning algorithms can also be used to **train systems on huge datasets** that cannot fit in one machine’s main memory (this is called **out-of-core learning**). The algorithm loads part of the data, runs a training step on that data, and repeats the process until it has run on all of the data.
 
 >   **Out-of-core learning** is usually done offline (i.e., not on the live system), so online learning can be a confusing name. Think of it as incremental learning.
-![use-online-learning-to-handle-huge-datasets](./figs/chap01-figs/use-online-learning-to-handle-huge-datasets.png)
+![use-online-learning-to-handle-huge-datasets](https://user-images.githubusercontent.com/81964452/185127792-514e74cd-b5f1-4fe5-8893-856fa7a5c259.png)
 <p align="center">Using online learning to handle huge datasets</p>
 
 **One important parameter of online learning systems** is how fast they should adapt to changing data: this is called the **learning rate**. If you *set a high learning rate*, then your system will rapidly adapt to new data, but it will also tend to quickly forget the old data (you don’t want a spam filter to flag only the latest kinds of spam it was shown). Conversely, if you *set a low learning rate*, the system will have more inertia (惰性、惯性); that is, it will learn more slowly, but it will also be less sensitive to noise in the new data or to sequences of nonrepresentative data points (outliers).
@@ -190,14 +196,14 @@ One more way to categorize Machine Learning systems is by how they *generalize*.
 
 The system learns the examples by heart, then generalizes to new cases by using a similarity measure to compare them to the learned examples (or a subset of them).
 
-![instance-based-learning](./figs/chap01-figs/instance-based-learning.png)
+![instance-based-learning](https://user-images.githubusercontent.com/81964452/185128197-674b7eae-337f-4512-9c1b-d60bcdea4e2a.png)
 <p align="center">Instance-based learning</p>
 
 ### 3.3.2 Model-based Learning
 
 Another way to generalize from a set of examples is to build a model of these examples and then use that model to make *predictions*. This is called *model-based learning*.
 
-![model-based-learning](./figs/chap01-figs/model-based-learning.png)
+![model-based-learning](https://user-images.githubusercontent.com/81964452/185128524-4dde03cc-bff7-4121-bb08-bbb142f51714.png)
 <p align="center">Model-based learning</p>
 
 [Back to top :arrow_up:](#main-contents)
@@ -214,7 +220,7 @@ Since the main task is to select a learning algorithm and train it on some data,
 
 [Microsoft 2001 paper](https://homl.info/6) showed that very different ML algorithms, including fairly simple ones, performed almost identically well on a complex problem of natural language disambiguation once they were given enough data.
 
-![the-importance-of-data-vs-algorithm](./figs/chap01-figs/the-importance-of-data-vs-algorithm.png)
+![the-importance-of-data-vs-algorithm](https://user-images.githubusercontent.com/81964452/185129098-d30ef914-3135-4e2d-8c23-d63a3c2b1cef.png)
 <p align="center">The importance of data v.s. algorithm</p>
 
 These results suggest that we may want to reconsider the trade-off between spending time and money on algorithm development v.s. spending it on corpus development.
