@@ -12,19 +12,19 @@ About the book:
 
 ### I. The Fundamentals of Machine Learning
 
-01. [The Machine Learning Landscape](chap01_the_ml_landscape/chap01_the_ml_landscape_cn.md)
-02. [End-to-end Machine Learning Project](https://nbviewer.jupyter.org/github/libingallin/handson-ml-2nd/blob/master/chap02_end_to_end_ml_project/chap02_end_to_end_ml_project_cn.ipynb)
-03. [Classification](https://nbviewer.jupyter.org/github/libingallin/handson-ml-2nd/blob/master/chap03_classification/chap03_classification_cn.ipynb)
+01. The Machine Learning Landscape
+02. End-to-end Machine Learning Project
+03. Classification
 04. Training Models
 05. Support Vector Machines
-06. [Decision Trees](https://nbviewer.jupyter.org/github/libingallin/hands-on-machine-learning-with-scikit-learn-keras-tensorflow-2nd/blob/master/chap06-decision-trees.ipynb)
-07. [Ensemble Learning and Random Forests](https://nbviewer.jupyter.org/github/libingallin/hands-on-machine-learning-with-scikit-learn-keras-tensorflow-2nd/blob/master/chap07-ensemble-learninig.ipynb) 
+06. Decision Trees
+07. Ensemble Learning and Random Forests
 08. Dimensionaity Reduction
 09. Unsupervised Learning Techniques
 
 ### II. Neural Networks and Deep Learning
 
-10. [Introduction to Artificial Neural Networks with Keras](https://nbviewer.jupyter.org/github/libingallin/hands-on-machine-learning-with-scikit-learn-keras-tensorflow-2nd/blob/master/chap10-introduction-to-ANN.ipynb)
+10. Introduction to Artificial Neural Networks with Keras
 11. Training Deep Neural Networks
 12. Custom Models and Training with TensorFlow
 13. Loading and Preprocessing Data with TensorFlow
