@@ -1,10 +1,10 @@
-# :books: Hands on Machine Learning with Scikit-Learn, Keras and TensorFlow, 2nd edition
+# :books: Hands on Machine Learning with Scikit-Learn, Keras and TensorFlow, 3rd edition
 
 [![Python version](https://img.shields.io/badge/Python-3.6.9-blue)](https://www.python.org/downloads/release/python-369/) [![tensorflow version](https://img.shields.io/badge/TensorFlow-2.0.0-blue)](https://www.tensorflow.org/)  [![keras version](https://img.shields.io/badge/Keras-2.2.4--tf-blue)](https://www.tensorflow.org/api_docs/python/tf/keras)
 
 
 About the book:
-+ [Aurélien Géron's O'Reilly book](https://www.amazon.com/-/zh/dp/1492032646/ref=sr_1_1?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&crid=39GEU93HMI8Z0&keywords=hands+on+machine+learning&qid=1577780077&sprefix=hands+on+ma%2Caps%2C376&sr=8-1)
++ [Aurélien Géron's O'Reilly book](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
 + [Aurélien Géron's github repo](https://github.com/Basel-anaya/Hands-On-Machine-Learning-with-Scikit-learn-Keras-and-Tensorflow-3rd-edition/)
 
 
