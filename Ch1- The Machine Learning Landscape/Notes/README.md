@@ -31,13 +31,13 @@
 
 # 1. What is Machine Learning?
 
-ML is the science (and art) of programming computers so they can learn from data.
+The use and development of computer systems that are able to learn and adapt without following explicit instructions.
 
 +   **a slightly more generally definition**:
 
     ML is the filed of study that gives computers the ability to learn without being explicitly programmed.
 
-+   **a more engineering-oriented** (以...为导向的/目标的) **one**:
++   **a more engineering-oriented one**:
 
     A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.
 
@@ -55,22 +55,22 @@ ML is the science (and art) of programming computers so they can learn from data
 
 ---
 
-### - The traditional approach:
+#### - The traditional approach:
 ![The traditioanl approach](https://user-images.githubusercontent.com/81964452/185117476-c821d293-984c-40cc-a04c-5f23e3559b4c.png)
 
 ---
 
-### - The ML approach:
+#### - The ML approach:
 ![The ML approach](https://user-images.githubusercontent.com/81964452/185118571-783bfed8-e9c8-4da1-b43c-5101fe6a9ee4.png)
 
 ---
 
-### - ML automatically is adopting to change:
+#### - ML automatically is adopting to change:
 ![ml-automatically-adapting-to-change](https://user-images.githubusercontent.com/81964452/185119862-9602cdf9-d2c2-470d-b98b-ee977f817910.png)
 
 ---
 
-### - ML can help humans learn:
+#### - ML can help humans learn:
 ![ml-can-help-humans-learn](https://user-images.githubusercontent.com/81964452/185120186-cf491591-17e3-45c3-aacf-58db016ba90e.png)
 
 [Back to top :arrow_up:](#main-contents)
