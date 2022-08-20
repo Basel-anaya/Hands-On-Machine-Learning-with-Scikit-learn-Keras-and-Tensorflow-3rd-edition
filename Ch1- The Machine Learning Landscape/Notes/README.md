@@ -160,7 +160,7 @@ In *batch learning*, the system is **incapable of learning incrementally**: it m
 
 +   Also, **training on the full set of data requires a lot of computing resources** (CPU, memory space, disk space, disk I/O, network I/O, etc.). If you have a lot of data and you automate your system to train from scratch every day, it will end up costing you a lot of money. If the amount of data is huge, it may even be impossible to use a batch learning algorithm.
 
-+   Finally, if your system needs to be able to learn autonomously (独立地) and it has limited resources (e.g., a smartphone application or a rover on Mars), then carrying around large amounts of training data and taking up a lot of resources to train for hours every day is a showstopper.
++   Finally, if your system needs to be able to learn autonomously and it has limited resources (e.g., a smartphone application or a rover on Mars), then carrying around large amounts of training data and taking up a lot of resources to train for hours every day is a showstopper.
 
 A better option in all these cases is to use algorithms that are capable of learning incrementally.
 
@@ -171,7 +171,7 @@ In *online learning*, you train the system **incrementally by feeding it data in
 ![online learning](https://user-images.githubusercontent.com/81964452/185127029-f3464f9b-5e1e-45da-a7ee-957dd84f5206.png)
 <p align="center">In online learning, a model is trained and launched into production, and then it keeps learning as new data comes in</p>
 
-+   Online learning is great for systems that receive data as a continuous flow (e.g., stock prices) and need to adapt to change rapidly or autonomously (独立地). 
++   Online learning is great for systems that receive data as a continuous flow (e.g., stock prices) and need to adapt to change rapidly or autonomously. 
 +    It is also a good option **if you have limited computing resources**: once an online learning system has learned about new data instances, it does not need them anymore, so you can discard them (unless you want to be able to roll back to a previous state and “replay” the data). This can save a huge amount of space.
 +   Online learning algorithms can also be used to **train systems on huge datasets** that cannot fit in one machine’s main memory (this is called **out-of-core learning**). The algorithm loads part of the data, runs a training step on that data, and repeats the process until it has run on all of the data.
 
@@ -179,7 +179,7 @@ In *online learning*, you train the system **incrementally by feeding it data in
 ![use-online-learning-to-handle-huge-datasets](https://user-images.githubusercontent.com/81964452/185127792-514e74cd-b5f1-4fe5-8893-856fa7a5c259.png)
 <p align="center">Using online learning to handle huge datasets</p>
 
-**One important parameter of online learning systems** is how fast they should adapt to changing data: this is called the **learning rate**. If you *set a high learning rate*, then your system will rapidly adapt to new data, but it will also tend to quickly forget the old data (you don’t want a spam filter to flag only the latest kinds of spam it was shown). Conversely, if you *set a low learning rate*, the system will have more inertia (惰性、惯性); that is, it will learn more slowly, but it will also be less sensitive to noise in the new data or to sequences of nonrepresentative data points (outliers).
+**One important parameter of online learning systems** is how fast they should adapt to changing data: this is called the **learning rate**. If you *set a high learning rate*, then your system will rapidly adapt to new data, but it will also tend to quickly forget the old data (you don’t want a spam filter to flag only the latest kinds of spam it was shown). Conversely, if you *set a low learning rate*, the system will have more inertia; that is, it will learn more slowly, but it will also be less sensitive to noise in the new data or to sequences of nonrepresentative data points (outliers).
 
 **A big challenge with online learning is that if bad data is fed to the system, the system’s performance will gradually decline**. To reduce this risk, you
 
