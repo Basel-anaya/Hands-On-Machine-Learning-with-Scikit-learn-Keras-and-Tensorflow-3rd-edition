@@ -1,0 +1,1 @@
+In this chapter, we will use MNIST for classification. MNIST is a dataset comprised of 70,000 small images that represent handwritten digits by students & employees from the US census Bureau). Each image is labeled with the digit it represents (ranging from 0 to 9).
