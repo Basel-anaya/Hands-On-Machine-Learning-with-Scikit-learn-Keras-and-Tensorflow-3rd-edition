@@ -1,0 +1,1 @@
+Although most of the applications of machine learning algorithms today are based on supervised learning, The vast majority of the available data is unlabeled. We have the input `X` , but we don't have the labels `Y`.
